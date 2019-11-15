@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+.chirp-container {
+    display: inline;
+}
+  
+.chirp, button {
+    background-color: #123bbb;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius: 5px;
+}
+  
+button {
+    border: none;
+}
+  
+button:hover {
+    background-color: rgb(0, 0, 0);
+}
+  
+.chirp {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+}
+  
+#delete {
+    padding: 20px;
+    background-color: red
+}
+  
+#edit-chirp {
+    padding: 10px;
+}
